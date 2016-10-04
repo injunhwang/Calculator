@@ -15,7 +15,11 @@ public class CalculatorTest {
 		System.out.println(a);
 
 		a = cal.divide(15, 0);
+		if(a == -1){
+			System.out.println("ERROR");
+		}else{
 		System.out.println(a);
+		}
 
 		a = cal.remainder(15, 10);
 		System.out.println(a);

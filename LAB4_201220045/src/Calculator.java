@@ -17,8 +17,8 @@ public class Calculator {
 		if (y != 0) {
 			return x / y;
 		} else {
-			System.out.print("ERROR");
-			return 0;
+			
+			return -1;
 		}
 
 	}
