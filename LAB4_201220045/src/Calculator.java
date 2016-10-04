@@ -23,6 +23,10 @@ public class Calculator {
 		}
 
 	}
+	
+	public double remainder(double x, double y){
+		return x % y;
+	}
 
 	public String string() {
 		return "ChanghyukIm_201120218, InjunHwang_201220045, SungkwonSon_201323152\nhttps://github.com/injunhwang/Calculator ";
