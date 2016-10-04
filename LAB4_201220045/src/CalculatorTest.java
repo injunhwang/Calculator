@@ -22,7 +22,9 @@ public class CalculatorTest {
 
 		String s = cal.string();
 		System.out.println(s);
+		
 
+		
 	}
 
 }
