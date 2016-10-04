@@ -19,7 +19,7 @@ public class Calculator {
 			return x / y;
 		} else {
 			System.out.print("ERROR");
-			return 0;
+			return ;
 		}
 
 	}
